@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(assets/images/backgroundPhoto.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 521;
+    font-style: normal;
+    text-align: center;
+    }
+
+#container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.task-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card { 
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    margin-bottom: 20px;
+}
+
+.card-text {
+    max-height: 5em;
+    overflow: auto;
+}
+
+.card-title {
+    position: absolute;
+    bottom: 2px;
+    left: 10px;
+    margin: 0;
+}
+
+
+
+
+
+
+
